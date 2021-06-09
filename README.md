@@ -4,6 +4,14 @@ top100 is a code challenge demonstrating a quick and efficient way to handle mil
 ## How to use
 This code is designed to be used on a node server or in the browser. It's currently very lean and to the point. You can demo the code by copying index.js and pasting it into your browser's console. You can then run this sample bit of code to test it out.
 
+`request_handled(ip_address)` This will add an ip_address to be evaluated
+
+`top100()` This will return the top 100 ip addresses ordered from greatest to least
+
+`clear()` This will reset the application
+
+
+Testing Example
 ```
 // Place whatever characters here to simulate IP addresses
 const txt = "abcdefghijklmnopqrstuvwxyz";
